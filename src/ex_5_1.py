@@ -4,7 +4,7 @@ try:
 except ImportError:
     from ex_5_0 import line_count
 
-
+import argparse
 def main(infile):
     """Call line_count with the infile argument."""
     line_count(infile)
